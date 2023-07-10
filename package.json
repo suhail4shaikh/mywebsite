@@ -7,8 +7,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "prod":"ng build --configuration production --base-href https://suhail4shaikh.github.io/mywebsite/",
-    "deploy":"npx angular-cli-ghpages --dir=dist/mywebsite"
+    "prod": "ng build --configuration production --base-href https://suhail4shaikh.github.io/mywebsite/",
+    "deploy": "npx angular-cli-ghpages --dir=dist/mywebsite"
   },
   "private": true,
   "dependencies": {
@@ -20,19 +20,20 @@
     "@angular/platform-browser": "^16.1.4",
     "@angular/platform-browser-dynamic": "^16.1.4",
     "@angular/router": "^16.1.4",
+    "bootstrap": "^5.3.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.13.1"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^16.1.4",
+    "@angular-devkit/build-angular": "^0.802.2",
     "@angular/cli": "~16.1.4",
-    "@angular/compiler-cli": "^16.1.4",
+    "@angular/compiler-cli": "^15.0.4",
     "@types/jasmine": "~4.3.0",
     "jasmine-core": "~4.5.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.1.0",
-    "karma-coverage": "~2.2.0",
+    "karma-coverage": "^1.1.2",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.0.0",
     "typescript": "~4.9.4"
