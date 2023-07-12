@@ -8,7 +8,8 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "prod": "ng build --configuration production --base-href https://suhail4shaikh.github.io/mywebsite/",
-    "deploy": "npx angular-cli-ghpages --dir=dist/mywebsite"
+    "deploy": "npx angular-cli-ghpages --dir=dist/mywebsite",
+    "build-deploy":"npm run prod && npm run deploy"
   },
   "private": true,
   "dependencies": {
