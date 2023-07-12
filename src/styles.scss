@@ -1,5 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+header {
+    border-bottom: 1px solid #E5E9EF;
+}
+
 .header-block {
     display: flex;
     justify-content: space-between;
+}
+
+.logo-block {
+    i {
+        font-size: 2em;
+    }
+
+    p {
+        display: flex;
+        align-items: center;
+        margin-bottom: 0;
+
+        span {
+            padding-left: 10px;
+        }
+    }
+}
+
+.nav-link {
+    color: var(--bs-gray);
+    &:hover {
+        color: var(--bs-gray-dark);
+    }
 }
