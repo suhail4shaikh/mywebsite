@@ -21,12 +21,67 @@ header {
         span {
             padding-left: 10px;
         }
+
+        .logo-text {
+            font-style: italic;
+        }
     }
 }
 
 .nav-link {
     color: var(--bs-gray);
+
     &:hover {
         color: var(--bs-gray-dark);
     }
+}
+
+.footer {
+    background-color: #2c2f50;
+    padding: 0.7em;
+    color: white;
+
+    .contactus {
+        color: white;
+
+        .emailLink,
+        .telLink {
+            color: white;
+            text-decoration: none;
+        }
+
+        p {
+            margin-bottom: 0;
+        }
+    }
+
+    .socialMedia {
+        display: flex;
+        color: white;
+        justify-content: space-between;
+        margin-bottom: 1em;
+
+        a {
+            color: white;
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+
+        .mediaName {
+            padding-left: 10px;
+        }
+    }
+
+    .copyRight {
+        font-size: 0.8em;
+        margin-bottom: 0;
+    }
+}
+
+main {
+    display: block;
+    min-height: 78vh;
 }
